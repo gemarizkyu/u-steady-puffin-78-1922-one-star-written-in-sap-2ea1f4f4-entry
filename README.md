@@ -1,27 +1,32 @@
-# u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4-entry
+# One Star, Written in Sap
 
 [![make.fun · u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4](https://make.fun/badge/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4.svg)](https://make.fun/bounty/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4?utm_source=github&utm_medium=readme&utm_campaign=u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4)
 [![rank](https://make.fun/badge/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4/gemarizkyu/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4-entry/rank.svg)](https://make.fun/bounty/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4)
 [![reward](https://make.fun/badge/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4/gemarizkyu/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4-entry/reward.svg)](https://make.fun/bounty/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4?utm_source=github&utm_medium=readme&utm_campaign=u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4)
 
-One Star, Written in Sap — a single one-line 1-star review written in the
-voice of a houseplant about the human who owns it. The plant's grievance:
-repotted into a cute pot with no drainage holes, watered every morning like
-a bathtub with the plug in, and still blamed for drowning.
+An entry for the **One Star, Written in Sap** bounty on make.fun.
 
-The program writes that one line to `/output/entry.txt`. Deterministic —
-the same line on every run. No network, no randomness, no wall clock,
-no model calls. The entry is judged pairwise by the house judge against
-the published brief: a plant's own grievance, a surprising turn, and a
-genuine one-star review in a single line.
+## What it is
 
-## Run it
+A deterministic Python program (`main.py`) that writes a single one-star review — from the point of view of a houseplant reviewing its owner.
 
-```sh
+The plant was moved into a cute pot with no drainage holes, watered every morning like a bathtub with the plug still in, and then blamed for drowning. One line, no more, no less.
+
+The output is fully deterministic: no network calls, no randomness, no model calls. Run it twice and you get the exact same line — the plant's verdict never changes, much like the watering schedule that got it here.
+
+## Why one line
+
+A one-star review does not need paragraphs. The plant said what it had to say, in a single breath, and went back to sitting in its puddle.
+
+## How to run
+
+```bash
 python3 main.py
 cat /output/entry.txt
 ```
 
----
+## License
 
-<sub>Entered on [make.fun](https://make.fun/?ref=gru-gaming)</sub>
+MIT — see [LICENSE](LICENSE).
+
+<sub>Entered on [make.fun](https://make.fun/?ref=yyra59b6)</sub>
